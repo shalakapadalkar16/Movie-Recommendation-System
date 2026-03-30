@@ -1,0 +1,18 @@
+paths:
+  raw_data: data/raw
+  interim_data: data/interim
+  processed_data: data/processed
+
+files:
+  movies: movies.csv
+  ratings: ratings.csv
+  tags: tags.csv
+  links: links.csv
+
+split:
+  test_size: 0.2
+  random_state: 42
+
+recommendation:
+  top_k: 10
+  candidate_k: 200
